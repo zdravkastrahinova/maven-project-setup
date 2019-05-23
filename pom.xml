@@ -8,6 +8,7 @@
     <artifactId>maven-project-setup</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>project-c</module>
         <module>project-b</module>
     </modules>
     <packaging>pom</packaging>
