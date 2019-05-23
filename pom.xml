@@ -10,6 +10,7 @@
     <modules>
         <module>project-c</module>
         <module>project-b</module>
+        <module>project-d</module>
     </modules>
     <packaging>pom</packaging>
 
