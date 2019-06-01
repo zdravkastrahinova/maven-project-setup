@@ -7,11 +7,20 @@
     <groupId>project-a</groupId>
     <artifactId>maven-project-setup</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>project-b</module>
-        <module>project-d</module>
-    </modules>
     <packaging>pom</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
@@ -20,4 +29,9 @@
             <version>4.12</version>
         </dependency>
     </dependencies>
+
+    <modules>
+        <module>project-b</module>
+        <module>project-d</module>
+    </modules>
 </project>

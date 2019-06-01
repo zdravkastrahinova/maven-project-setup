@@ -12,12 +12,4 @@
     <artifactId>project-d</artifactId>
     <packaging>jar</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>project-a</groupId>
-            <artifactId>project-c</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-
 </project>
